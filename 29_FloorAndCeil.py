@@ -15,16 +15,17 @@ class Solution:
             if arr[mid] <= x:
                 minimum = arr[mid]
                 low = mid + 1
-            else:
+            if arr[mid] >= x:
+                maximum = arr[mid]
                 high = mid - 1
                 
-        while low1 <= high1:
-            mid1 = (low1 + high1) // 2
+        # while low1 <= high1:
+        #     mid1 = (low1 + high1) // 2
             
-            if arr[mid1] >= x:
-                maximum = arr[mid1]
-                high1 = mid1 - 1
-            else:
-                low1 = mid1 + 1
+        #     if arr[mid1] >= x:
+        #         maximum = arr[mid1]
+        #         high1 = mid1 - 1
+        #     else:
+        #         low1 = mid1 + 1
                 
         return minimum, maximum
