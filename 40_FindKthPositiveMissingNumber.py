@@ -1,3 +1,4 @@
+#Solution for finding kth positive number
 class Solution:
     def findKthPositive(self, arr: List[int], k: int) -> int:
         l,r = 0, len(arr) - 1
