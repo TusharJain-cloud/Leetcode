@@ -1,5 +1,6 @@
 # Program to find second largest element in an array.
 class Solution:
+    # function that finds second largest
     def getSecondLargest(self, arr):
         # Code Here
         largest = -1
