@@ -1,3 +1,4 @@
+#Remove Outer Parentheses
 class Solution:
     def removeOuterParentheses(self, s: str) -> str:
         result = ""
