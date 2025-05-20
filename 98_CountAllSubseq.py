@@ -1,3 +1,4 @@
+#Subsequence with target sum
 class Solution:
     def countSubsequenceWithTargetSum(self, nums, k):
         #your code goes here
