@@ -1,10 +1,12 @@
 #Subsequence with target sum
+
 class Solution:
     def countSubsequenceWithTargetSum(self, nums, k):
         #your code goes here
         res = 0
 
         def backtrack(i, cur_sum):
+            #make the res variable nonlocal
             nonlocal res
             if cur_sum == k:
                 res += 1
